@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long int n, m, dn, dm;
+    cin >> n >> m;
+
+    dn = n % 10;
+    dm = m % 10;
+
+    cout << (dn + dm) << endl;
+
+    return 0;
+}
