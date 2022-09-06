@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int in;
+    long long int llin;
+    char ch;
+    float f;
+    double lf;
+
+    cin >> in >> llin >> ch >> f >> lf;
+    cout << in << endl << llin << endl << ch << endl << f << endl << lf << endl;
+
+    return 0;
+}
