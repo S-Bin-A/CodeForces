@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long int L1, R1, L2, R2, a, b;
+    cin >> L1 >> R1 >> L2 >> R2;
+
+    a = max(L1,L2);
+    b = min(R1,R2);
+
+    if(a == b || a < b)
+        cout << a << " " << b << endl;
+    else if(a > b)
+        cout << "-1" << endl;
+
+    return 0;
+}
