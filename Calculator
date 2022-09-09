@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a, b, sum, sub, mul, div;
+    char s;
+    cin >> a >> s >> b;
+
+    sum = (a + b);
+    sub = (a - b);
+    mul = (a * b);
+    div = (a / b);
+
+    if(s == '+')
+        cout << sum << endl;
+    else if(s == '-')
+        cout << sub << endl;
+    else if(s == '*')
+        cout << mul << endl;
+    else if(s == '/')
+        cout << div << endl;
+
+    return 0;
+}
