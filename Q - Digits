@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long int t, n, x, i;
+    cin >> t;
+
+    for(i = 1; i <= t; i++)
+    {
+        cin >> n;
+
+        if(n == 0)
+            cout << '0';
+
+        while(n > 0)
+        {
+            x = n % 10;
+            cout << x << " ";
+            n = n / 10;
+
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
