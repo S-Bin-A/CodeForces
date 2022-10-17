@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int m, n, j, sum;
+
+    while(1)
+    {
+        cin >> m >> n;
+
+        if(m <= 0 || n <= 0)
+            break;
+        else if(m == n)
+            cout << n << " sum =" << m << endl;
+        else if(m > n)
+        {
+            sum = 0;
+
+            for(j = n; j <= m; j++)
+            {
+                cout << j << " ";
+
+                sum += j;
+            }
+
+            cout << "sum =" << sum << endl;
+        }
+        else if(m < n)
+        {
+            sum = 0;
+            for(j = m; j <= n; j++)
+            {
+                cout << j << " ";
+
+                sum += j;
+            }
+
+            cout << "sum =" << sum << endl;
+        }
+
+    }
+
+    return 0;
+}
